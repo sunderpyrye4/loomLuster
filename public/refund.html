@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refund Policy | Loom & Luster Home Décor Consultancy</title>
+    <meta name="description" content="Refund Policy for Loom & Luster. Learn about our refund and cancellation policies.">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary: #C17A4F;
+            --primary-dark: #9D5E38;
+            --secondary: #4A6572;
+            --light: #F8F5F2;
+            --dark: #2C3E3F;
+            --warm-gray: #E8E2DC;
+            --transition: all 0.3s ease;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            background-color: #fff;
+        }
+        
+        h1, h2, h3, h4 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 600;
+            color: var(--dark);
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header */
+        header {
+            background-color: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+        
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 28px;
+            font-weight: 600;
+            color: var(--primary);
+            text-decoration: none;
+        }
+        
+        .logo span {
+            color: var(--secondary);
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+        
+        .nav-links li {
+            margin-left: 30px;
+        }
+        
+        .nav-links a {
+            text-decoration: none;
+            color: var(--dark);
+            font-weight: 500;
+            transition: var(--transition);
+        }
+        
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+        
+        .nav-links a.active {
+            color: var(--primary);
+            font-weight: 600;
+        }
+        
+        .mobile-toggle {
+            display: none;
+            font-size: 24px;
+            cursor: pointer;
+            color: var(--primary);
+        }
+        
+        /* Policy Page Styling */
+        .policy-header {
+            background-color: var(--light);
+            padding: 140px 0 60px;
+            margin-bottom: 40px;
+        }
+        
+        .policy-header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 15px;
+            color: var(--dark);
+        }
+        
+        .policy-header p {
+            color: var(--secondary);
+            font-size: 1.1rem;
+            max-width: 800px;
+        }
+        
+        .policy-content {
+            padding: 0 0 80px;
+        }
+        
+        .policy-section {
+            margin-bottom: 50px;
+        }
+        
+        .policy-section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            color: var(--primary);
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--warm-gray);
+        }
+        
+        .policy-section p {
+            margin-bottom: 15px;
+            color: var(--secondary);
+        }
+        
+        .policy-section ul, .policy-section ol {
+            margin-left: 25px;
+            margin-bottom: 20px;
+            color: var(--secondary);
+        }
+        
+        .policy-section li {
+            margin-bottom: 10px;
+        }
+        
+        .policy-section strong {
+            color: var(--dark);
+        }
+        
+        .policy-highlight {
+            background-color: var(--light);
+            border-left: 4px solid var(--primary);
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        
+        .policy-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+        }
+        
+        .policy-table th, .policy-table td {
+            border: 1px solid var(--warm-gray);
+            padding: 15px;
+            text-align: left;
+        }
+        
+        .policy-table th {
+            background-color: var(--light);
+            font-weight: 600;
+            color: var(--dark);
+        }
+        
+        .policy-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        
+        .back-to-home {
+            display: inline-block;
+            background-color: var(--primary);
+            color: white;
+            padding: 12px 28px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: var(--transition);
+            margin-top: 20px;
+        }
+        
+        .back-to-home:hover {
+            background-color: var(--primary-dark);
+            transform: translateY(-3px);
+        }
+        
+        /* Footer */
+        footer {
+            background-color: var(--dark);
+            color: var(--warm-gray);
+            padding: 60px 0 30px;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 40px;
+            margin-bottom: 50px;
+        }
+        
+        .footer-column h3 {
+            font-size: 1.3rem;
+            margin-bottom: 25px;
+            color: white;
+        }
+        
+        .footer-links {
+            list-style: none;
+        }
+        
+        .footer-links li {
+            margin-bottom: 12px;
+        }
+        
+        .footer-links a {
+            color: var(--warm-gray);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        
+        .footer-links a:hover {
+            color: var(--primary);
+        }
+        
+        .footer-links a.active {
+            color: var(--primary);
+            font-weight: 600;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .social-links a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            color: white;
+            transition: var(--transition);
+        }
+        
+        .social-links a:hover {
+            background-color: var(--primary);
+            transform: translateY(-5px);
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.6);
+        }
+        
+        /* Responsive */
+        @media (max-width: 992px) {
+            .footer-content {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .mobile-toggle {
+                display: block;
+            }
+            
+            .nav-links {
+                position: fixed;
+                top: 80px;
+                left: 0;
+                width: 100%;
+                background-color: white;
+                flex-direction: column;
+                align-items: center;
+                padding: 20px 0;
+                box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+                transform: translateY(-100%);
+                opacity: 0;
+                transition: var(--transition);
+            }
+            
+            .nav-links.active {
+                transform: translateY(0);
+                opacity: 1;
+            }
+            
+            .nav-links li {
+                margin: 15px 0;
+                margin-left: 0;
+            }
+            
+            .policy-header h1 {
+                font-size: 2.2rem;
+            }
+            
+            .policy-table {
+                display: block;
+                overflow-x: auto;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+            }
+            
+            .policy-header h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <div class="nav-container">
+                <a href="index.html" class="logo">Loom & <span>Luster</span></a>
+                <div class="mobile-toggle" id="mobileToggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#portfolio">Portfolio</a></li>
+                    <li><a href="index.html#testimonials">Testimonials</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                    <li><a href="refund.html" class="active">Refund</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Refund Policy Content -->
+    <div class="policy-header">
+        <div class="container">
+            <h1>Refund Policy</h1>
+            <p>Last Updated: December 10, 2023</p>
+            <p>We strive for complete client satisfaction. This policy outlines our refund and cancellation procedures.</p>
+        </div>
+    </div>
+
+    <div class="policy-content container">
+        <div class="policy-section">
+            <h2>1. Consultation Fees</h2>
+            <p>Initial consultation fees are non-refundable once the consultation has taken place. If you cancel with more than 48 hours notice, we will issue a full refund of any prepaid consultation fee.</p>
+            <p>Consultation fees are typically $150 for a 90-minute initial consultation, which is applied toward any future services if you choose to work with us.</p>
+        </div>
+
+        <div class="policy-section">
+            <h2>2. Service Retainers</h2>
+            <p>Retainer fees paid to secure our services and begin design work are non-refundable, as they cover initial design development, research, and administrative setup.</p>
+            <p>If a project is cancelled after the retainer has been paid but before substantial work has begun, we may refund a portion at our discretion, minus any costs incurred (typically 50% of retainer).</p>
+            
+            <div class="policy-highlight">
+                <p><strong>Example:</strong> If you pay a $2,000 retainer and cancel before we begin design work, we may refund $1,000 to cover our preliminary administrative costs.</p>
+            </div>
+        </div>
+
+        <div class="policy-section">
+            <h2>3. Project Cancellation</h2>
+            <p>If you choose to cancel a project after work has begun:</p>
+            <ul>
+                <li>You will be billed for all work completed up to the cancellation date at our standard hourly rate</li>
+                <li>Any unused portion of prepaid fees will be refunded within 30 days</li>
+                <li>All intellectual property rights remain with Loom & Luster until full payment is received for work completed</li>
+                <li>A cancellation fee of 10% of remaining project value may apply</li>
+            </ul>
+        </div>
+
+        <div class="policy-section">
+            <h2>4. Product Purchases</h2>
+            <p>For furniture and accessories purchased through us:</p>
+            <table class="policy-table">
+                <thead>
+                    <tr>
+                        <th>Product Type</th>
+                        <th>Return Policy</th>
+                        <th>Restocking Fee</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Custom orders</td>
+                        <td>Non-refundable, non-returnable</td>
+                        <td>N/A</td>
+                    </tr>
+                    <tr>
+                        <td>Stock items</td>
+                        <td>14-day return window</td>
+                        <td>15%</td>
+                    </tr>
+                    <tr>
+                        <td>Special orders</td>
+                        <td>Case by case basis</td>
+                        <td>20-50%</td>
+                    </tr>
+                    <tr>
+                        <td>Damaged/defective items</td>
+                        <td>Replacement or full refund</td>
+                        <td>None</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>All returns must be in original packaging and condition. Shipping costs for returns are the client's responsibility unless the item is defective.</p>
+        </div>
+
+        <div class="policy-section">
+            <h2>5. Satisfaction Guarantee</h2>
+            <p>We offer a satisfaction guarantee on our design services:</p>
+            <ul>
+                <li>If you're unsatisfied with our design concepts, we will revise them once at no additional charge</li>
+                <li>If after revisions you remain unsatisfied, we will refund 50% of fees paid for the design development phase</li>
+                <li>This guarantee does not apply to implemented work, product purchases, or travel expenses</li>
+                <li>Satisfaction guarantee claims must be made within 14 days of concept delivery</li>
+            </ul>
+        </div>
+
+        <div class="policy-section">
+            <h2>6. How to Request a Refund</h2>
+            <p>To request a refund:</p>
+            <ol>
+                <li>Contact us at billing@loomandluster.com within 30 days of payment</li>
+                <li>Include your invoice number and reason for refund request</li>
+                <li>Allow 5-10 business days for processing</li>
+                <li>Refunds are issued to the original payment method</li>
+            </ol>
+            
+            <div class="policy-highlight">
+                <p><strong>Processing Time:</strong> Refunds typically appear in your account within 7-10 business days after processing, depending on your financial institution.</p>
+            </div>
+        </div>
+
+        <div class="policy-section">
+            <h2>7. Exceptions</h2>
+            <p>No refunds will be issued for:</p>
+            <ul>
+                <li>Services already rendered</li>
+                <li>Digital products (e-books, design guides)</li>
+                <li>Travel expenses already incurred</li>
+                <li>Third-party vendor fees (architectural drawings, contractor deposits)</li>
+                <li>Projects cancelled due to client failure to provide necessary information or access</li>
+            </ul>
+        </div>
+
+        <div class="policy-section">
+            <h2>8. Contact Information</h2>
+            <p>For refund inquiries, please contact:</p>
+            <ul>
+                <li><strong>Email:</strong> billing@loomandluster.com</li>
+                <li><strong>Phone:</strong> (555) 123-4567 (ext. 2 for billing)</li>
+                <li><strong>Hours:</strong> Monday-Friday, 9am-5pm EST</li>
+                <li><strong>Mailing Address:</strong> Loom & Luster, 123 Design Avenue, New York, NY 10001, USA</li>
+            </ul>
+        </div>
+
+        <a href="index.html" class="back-to-home">
+            <i class="fas fa-arrow-left"></i> Back to Home
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Loom & Luster</h3>
+                    <p>Transforming American homes with modern décor consultancy since 2015.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-houzz"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="index.html#portfolio">Portfolio</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html#services">Interior Design</a></li>
+                        <li><a href="index.html#services">Space Planning</a></li>
+                        <li><a href="index.html#services">Color Consultation</a></li>
+                        <li><a href="index.html#services">Furniture Selection</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <ul class="footer-links">
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="refund.html" class="active">Refund Policy</a></li>
+                        <li><a href="cookie.html">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Loom & Luster Home Décor Consultancy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Navigation Toggle
+        const mobileToggle = document.getElementById('mobileToggle');
+        const navLinks = document.getElementById('navLinks');
+        
+        mobileToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            mobileToggle.innerHTML = navLinks.classList.contains('active') 
+                ? '<i class="fas fa-times"></i>' 
+                : '<i class="fas fa-bars"></i>';
+        });
+        
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                mobileToggle.innerHTML = '<i class="fas fa-bars"></i>';
+            });
+        });
+    </script>
+</body>
+</html>
